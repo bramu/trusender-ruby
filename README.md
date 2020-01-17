@@ -13,5 +13,5 @@ TruSender::send_email("AUTH_TOKEN", "contact_us", "to@address.com", {:data => "h
 Here is one liner to capture the customer activity
 
 ```ruby
-TruSender::send_event("AUTH_TOKEN", "customer@email.com", "Event Name", {"event" => "properties here"})
+TruSender::send_event("AUTH_TOKEN", "customer@email.com", "Event Name", {:event => "properties here"})
 ```
