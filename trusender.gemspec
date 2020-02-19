@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name               = "trusender"
-  s.version            = "0.0.1"
+  s.version            = "0.0.2"
   s.default_executable = "trusender"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Ramu"]
-  s.date = %q{2020-01-03}
+  s.date = %q{2020-02-18}
   s.description = %q{TruSender Ruby bindings}
   s.email = %q{bramu.ss@gmail.com}
   s.files = ["Rakefile", "lib/trusender.rb", "lib/trusender/client.rb", "bin/trusender"]
@@ -24,4 +24,3 @@ Gem::Specification.new do |s|
   else
   end
 end
-
