@@ -4,7 +4,7 @@ class TruSender
     post_data =  {
       auth_token: auth_token,
       template_name: template_name,
-      to_address: to_address,
+      email: to_address,
       data_mapping: data_mapping
     }
     client.send("/sendEmail", post_data)
